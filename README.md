@@ -11,3 +11,7 @@ X79 Clover for macOS Catalina 10.15.7
 | Memory | Samsung 8GB DDR3-1600Mhz ECC x 2
 | PSU | Evesky 500W
 | Storage | 78GB SSD (macOS), 70GB SSD (Windows 11), 512GB HDD (Shared Storage)
+
+## Know bugs
+> 1. Sleep
+> 2. CPU Turbo
