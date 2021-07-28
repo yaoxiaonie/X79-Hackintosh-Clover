@@ -225,7 +225,7 @@
 		<key>Timeout</key>
 		<integer>5</integer>
 		<key>XMPDetection</key>
-		<integer>-1</integer>
+		<false/>
 	</dict>
 	<key>CPU</key>
 	<dict>
@@ -266,7 +266,7 @@
 			<key>HighCurrent</key>
 			<false/>
 			<key>Inject</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>UseIntelHDMI</key>
 		<false/>
@@ -315,7 +315,7 @@
 			<key>ATI</key>
 			<false/>
 			<key>Intel</key>
-			<true/>
+			<false/>
 			<key>NVidia</key>
 			<false/>
 		</dict>
@@ -323,8 +323,6 @@
 		<false/>
 		<key>RadeonDeInit</key>
 		<false/>
-		<key>ig-platform-id</key>
-		<string>0x00000099</string>
 	</dict>
 	<key>KernelAndKextPatches</key>
 	<dict>
@@ -600,7 +598,7 @@
 		<key>CustomUUID</key>
 		<string>55ADE930-5FDF-5EC4-8429-15640684C489</string>
 		<key>InjectKexts</key>
-		<true/>
+		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
