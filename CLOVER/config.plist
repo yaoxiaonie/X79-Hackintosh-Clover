@@ -25,12 +25,14 @@
 				<key>FixMutex</key>
 				<false/>
 				<key>FixRTC</key>
-				<true/>
+				<false/>
 				<key>FixRegions</key>
 				<true/>
 				<key>FixShutdown</key>
 				<true/>
 				<key>FixTMR</key>
+				<true/>
+				<key>FixWAK</key>
 				<true/>
 			</dict>
 			<key>Name</key>
@@ -76,16 +78,6 @@
 					<data>VVNCRQ==</data>
 					<key>Replace</key>
 					<data>RUgwMg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>RTC fix</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>oAqTU1RBUwE=</data>
-					<key>Replace</key>
-					<data>oAqRCv8L//8=</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -247,16 +239,6 @@
 		</dict>
 		<key>LANInjection</key>
 		<false/>
-		<key>Properties</key>
-		<dict>
-			<key>#PciRoot(0x0)/Pci(0x2,0x0)</key>
-			<dict>
-				<key>AAPL,ig-platform-id</key>
-				<data>eFY0Eg==</data>
-				<key>igfxfw</key>
-				<data>AgAAAA==</data>
-			</dict>
-		</dict>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
@@ -329,7 +311,7 @@
 		<key>AppleIntelCPUPM</key>
 		<true/>
 		<key>AppleRTC</key>
-		<true/>
+		<false/>
 		<key>Debug</key>
 		<false/>
 		<key>DellSMBIOSPatch</key>
@@ -337,7 +319,7 @@
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 		<key>KernelXCPM</key>
 		<false/>
 		<key>KextsToPatch</key>
@@ -589,7 +571,7 @@
 		<key>SerialNumber</key>
 		<string>F5KLLCY9F9VM</string>
 		<key>SmUUID</key>
-		<string>55ADE930-5FDF-5EC4-8429-15640684C489</string>
+		<string>F7649F2E-C841-460E-8A0B-CA9FFF2141E4</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
